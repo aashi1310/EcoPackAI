@@ -1,0 +1,88 @@
+/* EcoPackAI Extension Styles */
+.ecopack-widget {
+  position: fixed !important;
+  top: 20px !important;
+  right: 20px !important;
+  width: 300px !important;
+  background: white !important;
+  border: 2px solid #059669 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+  z-index: 10000 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 14px !important;
+}
+
+.ecopack-header {
+  background: linear-gradient(135deg, #059669, #10b981) !important;
+  color: white !important;
+  padding: 15px !important;
+  border-radius: 10px 10px 0 0 !important;
+  text-align: center !important;
+}
+
+.ecopack-content {
+  padding: 20px !important;
+}
+
+.ecopack-score {
+  text-align: center !important;
+  margin-bottom: 15px !important;
+}
+
+.ecopack-score-value {
+  font-size: 24px !important;
+  font-weight: bold !important;
+  margin-bottom: 5px !important;
+}
+
+.ecopack-score.green .ecopack-score-value {
+  color: #059669 !important;
+}
+
+.ecopack-score.yellow .ecopack-score-value {
+  color: #d97706 !important;
+}
+
+.ecopack-score.red .ecopack-score-value {
+  color: #dc2626 !important;
+}
+
+.ecopack-details {
+  margin-bottom: 15px !important;
+}
+
+.ecopack-detail {
+  margin-bottom: 8px !important;
+  font-size: 12px !important;
+}
+
+.ecopack-close {
+  position: absolute !important;
+  top: 10px !important;
+  right: 10px !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  border: none !important;
+  color: white !important;
+  width: 25px !important;
+  height: 25px !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+  font-size: 16px !important;
+}
+
+.ecopack-minimize {
+  position: fixed !important;
+  top: 20px !important;
+  right: 20px !important;
+  width: 60px !important;
+  height: 60px !important;
+  background: #059669 !important;
+  border: none !important;
+  border-radius: 50% !important;
+  color: white !important;
+  font-size: 24px !important;
+  cursor: pointer !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  z-index: 10000 !important;
+}
